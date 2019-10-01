@@ -20,8 +20,8 @@
     width: 100%;
 
     img {
-      width: 28%;
-      margin: 20px 2.5%;
+      max-width: 90%;
+      margin: 20px;
       border-radius: 20px;
       height: 100%;
     }
@@ -106,7 +106,6 @@
     display: none;
   }
 
-  
 
   .mbl-blast-img {
     text-align: center;   
@@ -118,13 +117,13 @@
     }
   }
   .space-images {
+    flex-direction: column;
 
     .blast{
-      text-align: center;  
-      display: block;
-      width: 100%;
-      border-radius: 15px;
-      margin: 20px 0 5px 0;
+      position: relative;
+      width: 500px;
+      height: 150px;
+      overflow: hidden; 
     }
     .sky {
       .display-none();
@@ -164,6 +163,7 @@
    .walk-img {
      width: 100%;
      margin-bottom: 20px;
+     
 
      img {
        width: 100%;
